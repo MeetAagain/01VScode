@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+      .side {
+        width: 70px;
+        height: 420px;
+        /* margin-top: 50px; */
+        /* 固定位置 */
+        position: fixed;
+        top: 200px;
+        right: 0;
+      }
+      .side div {
+        width: 70px;
+        height: 70px;
+        color: #fff;
+        font-size: 12px;
+        /* 文本居中 */
+        text-align: center;
+        /* margin-bottom: 3px; */
+      }
+      .one {
+        background-color: #06aeff;
+      }
+      .two {
+        background-color: #ff6262;
+      }
+      .three {
+        background-color: #3baf34;
+      }
+      .four {
+        background-color: #9b52ff;
+      }
+      .side .five {
+        height: 90px;
+        background-color: #ff6000;
+      }
+      .side .bg1 {
+        height: 40px;
+        width: 50px;
+        /* 背景图片 */
+        /* background-image: url(../0303百度主页/imgs/icon.png); */
+
+        /* 背景图是否平铺 向右平铺repeat-x 向下平铺repeat-y*/
+        /* background-repeat: no-repeat; */
+
+        /* 背景定位；x轴，向右为正方向，y轴，向下为正方向 */
+        /* background-position: x y; */
+        background: url(../0303百度主页/imgs/icon.png) no-repeat -5px -5px;
+        /* border: 1px solid red;    */
+
+        /* 内边距：top right bottom left */
+        margin: 5px 0 0 6px;
+
+        /* 内外间距合并 */
+        display: inline-block;
+      }
+      .side .bg2 {
+        height: 40px;
+        width: 50px;
+        background: url(../0303百度主页/imgs/icon.png) no-repeat -5px -51px;
+
+        /* 边框1px solid实线   red边框颜色 */
+        /* border: 1px solid red; */
+
+        margin: 0 7px 0 10px;
+        display: inline-block;
+      }
+      .side .bg3 {
+        height: 40px;
+        width: 50px;
+        background: url(../0303百度主页/imgs/icon.png) no-repeat -5px -240px;
+        /* border: 1px solid red; */
+        margin: 0 7px 0 10px;
+        display: inline-block;
+      }
+      .side .bg4 {
+        height: 40px;
+        width: 50px;
+        background: url(../0303百度主页/imgs/icon.png) no-repeat -5px -290px;
+        /* border: 1px solid red; */
+        margin: 0 7px 0 10px;
+        display: inline-block;
+      }
+      .side .bg5 {
+        height: 40px;
+        width: 50px;
+        background: url(../0303百度主页/imgs/icon.png) no-repeat -5px -145px;
+        /* border: 1px solid red; */
+        margin: 0 7px 0 10px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="side">
+      <div class="one">
+        <div class="bg1"></div>
+        <br />
+        集团官网
+      </div>
+      <div class="two">
+        <div class="bg2"></div>
+        <br />
+        在线咨询
+      </div>
+      <div class="three">
+        <div class="bg3"></div>
+        <br />微信咨询
+      </div>
+      <div class="four">
+        <div class="bg4"></div>
+        <br />0元试听
+      </div>
+      <div class="five">
+        <div class="bg5"></div>
+        <br />免费线上<br />课程
+      </div>
+    </div>
+  </body>
+</html>

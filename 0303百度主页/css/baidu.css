@@ -1,0 +1,197 @@
+.content {
+  width: 670px;
+  height: 314px;
+  /* border: 1px solid red; */
+  margin: 0px auto;
+  /* background-color: #4e6ef2; */
+  /* position: relative; */
+}
+body {
+  margin: 0;
+}
+.top {
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.top1 {
+  height: 60px;
+  /* border: 1px solid indianred; */
+  /* background-color: #4e6ef2; */
+  padding-left: 24px;
+}
+.top2 {
+  height: 60px;
+  /* background-color: aqua; */
+  padding-right: 24px;
+  text-align: right;
+}
+.top .mnav {
+  /* height: 23px; */
+  font-size: 12px;
+  color: #222;
+  font: 13px/23px Arial, sans-serif;
+  /* margin-top: 19px; */
+  margin-right: 24px;
+  line-height: 60px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.top .mnav:hover {
+  color: #315efb;
+}
+.top2 .top-right {
+  height: 24px;
+  width: 48px;
+  line-height: 24px;
+
+  text-align: center;
+
+  outline: 0;
+  border: 0;
+  border-radius: 6px;
+  background-color: #4e6ef2;
+  color: #fff;
+  position: relative;
+}
+.top2 .den:hover {
+  background-color: #254ae0;
+  color: #fff;
+}
+.more {
+  height: 270px;
+  width: 220px;
+  box-shadow: 0 0 5px 2px #d1cdcd;
+  /* border: 1px solid red; */
+  /* background-color: aqua; */
+  position: absolute;
+  top: 50px;
+  left: 210px;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 9999;
+}
+.top-gen:hover .more {
+  display: flex;
+}
+.more-list {
+  width: 65px;
+  height: 70px;
+  /* border: 1px solid rgb(0, 255, 119); */
+  text-align: center;
+  margin-top: 3px;
+  font: 13px/23px Arial, sans-serif;
+  box-shadow: 0 0 6px 1px #f9f6f6;
+  color: #222;
+  border-radius: 12px;
+}
+.more-list img {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 5px 2px #d1cdcd; */
+  /* background-color: #254ae0; */
+}
+.more-list:hover {
+  background-color: #f1f3fd;
+  color: #4e6ef2;
+}
+.shezhi {
+  width: 68px;
+  height: 135px;
+  font: 13px/23px Arial, sans-serif;
+  /* margin: 10px 20px 10px 20px; */
+  border: 1px solid rgb(201, 196, 196);
+  position: absolute;
+  top: 52px;
+  right: 91px;
+  display: none;
+  border-radius: 10px;
+  /* padding-right: 15px; */
+  /* padding-top: 5px; */
+  color: #333;
+  padding-right: 16px;
+  padding-top: 13px;
+  box-shadow: 0 0 6px 1px #e8e6e6;
+  line-height: 2;
+}
+
+.mnav:hover + .shezhi {
+  display: block;
+}
+
+.shezhi-top {
+  text-align: center;
+  color: #333;
+  /* line-height: 130px; */
+  /* margin-top: 50px; */
+  /* line-height: 60px; */
+  font: 13px/23px Arial, sans-serif;
+
+  text-decoration: none;
+}
+.logo {
+  text-align: center;
+}
+
+.logo-img {
+  width: 270px;
+  height: 129px;
+}
+.search {
+  text-align: center;
+  /* text-align: center; */
+  font-size: 0;
+  position: relative;
+  /* position: absolute; */
+}
+.inp {
+  width: 549px;
+  height: 43px;
+  border-radius: 10px 0 0 10px;
+  border: 2px solid #c4c7ce;
+  /* background: #fff; */
+  color: #222;
+  outline: 0;
+  padding-left: 10px;
+}
+.inp:hover {
+  border-color: #a7aab5;
+}
+.inp:focus {
+  border-color: #4e6ef2;
+}
+.sub {
+  background-color: #4e6ef2;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  width: 99px;
+  height: 49px;
+  font-size: 17px;
+  position: relative;
+  top: 1px;
+  right: 2px;
+  border: 0;
+}
+
+.xiangji {
+  width: 24px;
+  background: #fff url(../imgs/nicon-10750f3f7d.png) no-repeat;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 527px;
+  background-position: 0 -51px;
+  cursor: pointer;
+}
+.xiangji:hover {
+  background-position: 0 -75px;
+}

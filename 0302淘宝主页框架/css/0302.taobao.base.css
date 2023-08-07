@@ -1,0 +1,96 @@
+/* 主题：产品经理
+    基本性质：默认字号16px(pc)  20px(pc)
+    字体名称
+    文字颜色：
+    背景：(背景颜色+背景图片）
+    页面的尺寸：（整个页面的宽、高、版心宽）；
+ */
+html {
+  /* 字体的大小 */
+  font-size: 12px;
+
+  font-family: tahoma, arial, "Hiragino Sans GB", "宋体", sans-serif;
+  color: #3c3c3c;
+  /* 文本的行高 */
+  line-height: 1.5;
+  background-color: #fff;
+  /* 背景图片的插入 */
+  background-image: url(./../img/beijing-1490-2984.png);
+  /* 页面的尺寸 */
+  background-size: cover;
+}
+/* 所有标签都使用微软的盒子模型 */
+* {
+  box-sizing: border-box;
+}
+.site-nav {
+  /* height: 35px;转移到本模块的版心 */
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #eee;
+}
+/* 定于限制的范围，能够清晰准确即可 */
+.site-nav .banxin {
+  height: 36px;
+  width: 1190px;
+  /* background-color: #f5f5f5;默认背景透明，透出父框的背景 */
+  margin-right: auto;
+  margin-left: auto;
+  /* 目测，用于观察 */
+  border: 1px solid red;
+}
+.logo-search {
+  padding-top: 24px;
+  height: 121px;
+  outline: 1px solid blue;
+}
+.logo-search .banxin {
+  /* width: 1190px; */
+  height: 97px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* position: relative; */
+  /* 目测 */
+  outline: 1px solid red;
+}
+.nav-banner {
+  background-color: #fff;
+  /* width: 1190px; */
+  height: 423px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  border-radius: 18px 18px 0 0;
+  /* outline: 1px solid blue; */
+}
+.banxin {
+  width: 1190px;
+
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid lightgreen;
+}
+.guess {
+  padding-top: 20px;
+  padding-left: 19px;
+  padding-right: 19px;
+  min-height: calc((24px + 20px) + (174px + 18px) * 5);
+  background-color: #fff;
+  outline: 1px solid lightcoral;
+}
+.help {
+  padding-top: 40px;
+  height: 140px;
+  background-color: #fff;
+  outline: 1px solid lightcyan;
+}
+.link {
+  background-color: #fff;
+  margin-top: 20px;
+  width: 100%;
+  min-height: 125px;
+  height: 228px;
+}
+.own {
+  background-color: #fff;
+  height: 76px;
+  outline: 1px solid red;
+}

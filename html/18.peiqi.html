@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .one {
+        width: 100px;
+        height: 100px;
+        /* ren引入@keyframes动画效果，时长，匀速，长期播放 */
+        animation: ren 5s linear infinite;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      @keyframes ren {
+        0% {
+          /* 平移，旋转，缩放，倾斜 */
+          transform: translate(0, 0) rotate(0deg) scale(0.5, 0.5)
+            skew(5deg, 10deg);
+        }
+        25% {
+          transform: translate(1000px, 0) rotate(360deg) scale(1, 1)
+            skew(30deg, 10deg);
+        }
+
+        50% {
+          transform: translate(1000px, 450px) rotate(0deg) scale(0.5, 0.5)
+            skew(5deg, 10deg);
+        }
+
+        75% {
+          transform: translate(0px, 450px) rotate(360deg) scale(1, 1)
+            skew(30deg, 10deg);
+        }
+
+        100% {
+          transform: translate(0px, 0px) rotate(0deg) scale(0.5, 0.5)
+            skew(5deg, 10deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">
+      <img src="../img/peiqi.jpg" alt="" />
+    </div>
+  </body>
+</html>
